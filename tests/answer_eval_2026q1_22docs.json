@@ -1,0 +1,79 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [],
+  "answer_cases": [
+    {
+      "query": "东湖高新2026年一季报营业收入是多少",
+      "expected_answer_contains": ["387,132,938.27"],
+      "expected_citation_title": "600133_东湖高新_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "中国巨石2026年一季报总资产是多少",
+      "expected_answer_contains": ["55,297,026,471.34"],
+      "expected_citation_title": "600176_中国巨石_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "绿能慧充2026年一季报营业收入是多少",
+      "expected_answer_contains": ["298,539,137.97"],
+      "expected_citation_title": "600212_绿能慧充_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "华阳新材2026年一季报总资产是多少",
+      "expected_answer_contains": ["897,777,023.60"],
+      "expected_citation_title": "600281_华阳新材_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "恒力石化2026年一季报营业收入是多少",
+      "expected_answer_contains": ["49,210,215,542.69"],
+      "expected_citation_title": "600346_恒力石化_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "中远海特2026年一季报营业收入是多少",
+      "expected_answer_contains": ["6,547,046,512.66"],
+      "expected_citation_title": "600428_中远海特_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "云维股份2026年一季报总资产是多少",
+      "expected_answer_contains": ["353,340,034.11"],
+      "expected_citation_title": "600725_云维股份_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "益民集团2026年一季报营业收入是多少",
+      "expected_answer_contains": ["151,962,143.95"],
+      "expected_citation_title": "600824_益民集团_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "新天绿能2026年一季报营业收入是多少",
+      "expected_answer_contains": ["5,619,416,574.45"],
+      "expected_citation_title": "600956_新天绿能_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "中国外运2026年一季报营业收入是多少",
+      "expected_answer_contains": ["21,549,357,084.51"],
+      "expected_citation_title": "601598_中国外运_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "中国核建2026年一季报营业收入是多少",
+      "expected_answer_contains": ["23,006,669,875.83"],
+      "expected_citation_title": "601611_中国核建_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "云维股份2026年一季报营业收入是多少",
+      "expected_answer_contains": ["113,765,056.44"],
+      "expected_citation_title": "600725_云维股份_2026_Q1报",
+      "forbid_refusal": true
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [],
+  "answer_cases": [
+    {
+      "query": "根据东湖高新2026年一季报，营业收入是多少",
+      "expected_answer_contains": ["387,132,938.27"],
+      "expected_citation_title": "600133_东湖高新_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "根据东湖高新2026年一季报，总资产是多少",
+      "expected_answer_contains": ["19,567,533,633.47"],
+      "expected_citation_title": "600133_东湖高新_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "恒力石化2026年一季报营业收入是多少",
+      "expected_answer_contains": ["4,919,070.54"],
+      "expected_citation_title": "600346_恒力石化_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "恒力石化2026年一季报总资产是多少",
+      "expected_answer_contains": ["27,656,731.72"],
+      "expected_citation_title": "600346_恒力石化_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "新天绿能 2026年一季报的营业收入是多少",
+      "expected_answer_contains": ["5,619,416,574.45"],
+      "expected_citation_title": "600956_新天绿能_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "新天绿能 2026年一季报的总资产是多少",
+      "expected_answer_contains": ["95,373,041,921.01"],
+      "expected_citation_title": "600956_新天绿能_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "根据光大银行2026年一季报，营业收入是多少",
+      "expected_answer_contains": ["31,811"],
+      "expected_citation_title": "601818_光大银行_2026_Q1报",
+      "forbid_refusal": true
+    },
+    {
+      "query": "根据光大银行2026年一季报，总资产是多少",
+      "expected_answer_contains": ["7,201,145"],
+      "expected_citation_title": "601818_光大银行_2026_Q1报",
+      "forbid_refusal": true
+    }
+  ]
+}

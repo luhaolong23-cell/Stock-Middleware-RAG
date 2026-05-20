@@ -1,0 +1,1805 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [],
+  "facts_cases": [
+    {
+      "document_title": "600000_浦发银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "45,922",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "45,922",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "45,922",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "10,081,746",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "10,305,646",
+          "min_confidence": 0.6,
+          "source_page": 12,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "833,771",
+          "min_confidence": 0.42,
+          "source_page": 16,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "45,922",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.57",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": [
+          "equity_attributable",
+          "total_liabilities"
+        ]
+      }
+    },
+    {
+      "document_title": "600036_招商银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "1",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "1",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "1",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "1",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "0",
+          "min_confidence": 0.8,
+          "source_page": 2,
+          "quality_flag": "derived_from_assets_minus_equity",
+          "fact_origin": "derived"
+        },
+        "equity_attributable": {
+          "value": "1",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "2",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "1",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [
+        "total_liabilities"
+      ],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets"
+        ],
+        "derived_metrics": [
+          "total_liabilities"
+        ],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600133_东湖高新_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "387,132,938.27",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-1,765,643.60",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-14,996,371.32",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "19,567,533,633.47",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "9,663,419,076.17",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "9,107,243,680.82",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-207,937,033.83",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0017",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600176_中国巨石_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "5,281,938,122.05",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "1,267,151,599.42",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "1,275,825,553.42",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "55,297,026,471.34",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "21,529,068,667.46",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "32,287,316,078.55",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "221,173,113.30",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.3193",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600212_绿能慧充_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "298,539,137.97",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-21,496,858.30",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-22,601,162.25",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "2,687,936,467.26",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "2,085,509,689.35",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "577,028,070.71",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-50,876,098.86",
+          "min_confidence": 0.9,
+          "source_page": 10,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0305",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600281_华阳新材_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "124,064,340.76",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "90,278.35",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-14,859.28",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "897,777,023.60",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "841,515,825.32",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "56,261,198.28",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-4,513,329.54",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.0002",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600346_恒力石化_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "4,919,070.54",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "391,019.31",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "240,715.80",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "27,656,731.72",
+          "min_confidence": 0.9,
+          "source_page": 3,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "20,586,208.46",
+          "min_confidence": 0.8,
+          "source_page": 3,
+          "quality_flag": "derived_from_assets_minus_equity",
+          "fact_origin": "derived"
+        },
+        "equity_attributable": {
+          "value": "7,070,523.26",
+          "min_confidence": 0.9,
+          "source_page": 3,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "454,628.55",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.56",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [
+        "total_liabilities"
+      ],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets"
+        ],
+        "derived_metrics": [
+          "total_liabilities"
+        ],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600428_中远海特_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "6,547,046,512.66",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "405,873,514.87",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "387,408,734.35",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "44,869,608,765.89",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "25,908,091,670.16",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "17,101,968,461.85",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "1,933,449,449.76",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.148",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600519_贵州茅台_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "53,909,252,220.51",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "27,242,512,886.45",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "27,239,985,194.41",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "319,918,844,905.58",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "38,782,958,469.89",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "270,894,035,676.27",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "26,909,891,269.13",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "21.76",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600725_云维股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "113,765,056.44",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-1,610,014.01",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-2,025,069.42",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "353,340,034.11",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "96,710,966.50",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "256,629,067.61",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-69,342,714.03",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0013",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600824_益民集团_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "151,962,143.95",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "18,858,741.16",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "17,926,445.85",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "2,950,083,264.12",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "421,985,357.72",
+          "min_confidence": 0.9,
+          "source_page": 6,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "2,533,223,206.56",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "5,857,709.19",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.018",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600956_新天绿能_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "5,619,416,574.45",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "715,611,449.36",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "713,015,707.06",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "95,373,041,921.01",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "63,041,629,177.66",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "26,253,374,066.63",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "1,390,746,391.08",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.16",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "601118_海南橡胶_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "6,538,682,706.97",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-132,556,565.16",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-220,806,856.65",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "33,892,339,671.03",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "24,131,463,389.04",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "9,915,825,797.78",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "25,986,093.57",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0310",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "601318_中国平安_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "218,405",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "25,022",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "25,022",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "14,169,947",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "12,735,657",
+          "min_confidence": 0.9,
+          "source_page": 20,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "1,018,310",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "131,064",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "1.43",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "601598_中国外运_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "21,549,357,084.51",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "681,445,013.11",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "615,337,459.33",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "79,984,028,680.63",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "35,424,763,216.49",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "41,745,513,451.53",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-1,794,494,892.81",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.0950",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "601611_中国核建_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "23,006,669,875.83",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "402,876,829.83",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "372,565,116.17",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "242,629,602,259.66",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "191,007,275,436.49",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "33,618,566,699.85",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-9,511,837,816.50",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.13",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "601818_光大银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "31,811",
+          "min_confidence": 0.9,
+          "source_page": 3,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "11,459",
+          "min_confidence": 0.9,
+          "source_page": 3,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "11,521",
+          "min_confidence": 0.9,
+          "source_page": 3,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "7,201,145",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "574,423",
+          "min_confidence": 0.42,
+          "source_page": 16,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "36,015",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.17",
+          "min_confidence": 0.9,
+          "source_page": 4,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": [
+          "equity_attributable"
+        ]
+      }
+    },
+    {
+      "document_title": "603036_如通股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "94,276,731.15",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "22,109,783.49",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "18,590,703.91",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "1,576,852,233.31",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "158,474,372.98",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "1,408,907,215.10",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-4,128,582.45",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.11",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "603058_永吉股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "184,241,320.31",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-13,492,433.52",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-7,109,607.38",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "2,208,662,513.07",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "841,574,623.98",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "1,197,332,072.51",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "48,030,519.22",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0328",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "603069_海汽集团_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "151,120,571.15",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-20,824,825.08",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-23,590,979.46",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "2,561,432,829.64",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "1,786,035,756.40",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "772,617,444.70",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "296,189.28",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.07",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "603117_万林物流_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "45,916,805.94",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "-6,076,049.39",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "-7,635,678.48",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "1,298,870,599.60",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "273,300,506.16",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "1,025,390,325.32",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-9,774,823.35",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0101",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "603688_石英股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "256,452,107.04",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "36,769,731.55",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "25,224,626.86",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "6,200,713,722.13",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "321,215,313.24",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "5,853,655,291.52",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "4,855,050.61",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.07",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "605577_龙版传媒_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "537,132,957.10",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "123,290,900.05",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "116,854,855.44",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "5,934,572,618.41",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "1,906,396,982.38",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "4,028,175,636.03",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-121,340,497.76",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.2774",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "688009_中国通号_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "6,464,623,418.14",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "521,446,986.96",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "501,593,842.37",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "116,823,688,391.85",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "63,717,965,288.51",
+          "min_confidence": 0.9,
+          "source_page": 7,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "50,384,944,535.94",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-1,391,918,143.04",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.05",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "688233_神工股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "112,422,797.83",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "25,385,255.30",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "24,233,777.42",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "2,098,114,016.44",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "107,446,099.90",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "1,915,803,477.75",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "25,225,759.40",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.15",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "688610_埃科光电_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "146,543,715.41",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit_attributable": {
+          "value": "23,204,810.33",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "net_profit": {
+          "value": "22,471,684.68",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "1,822,699,685.76",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "270,245,724.15",
+          "min_confidence": 0.9,
+          "source_page": 8,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "1,552,453,961.61",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-1,859,341.77",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.34",
+          "min_confidence": 0.9,
+          "source_page": 2,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": [
+          "eps_basic",
+          "equity_attributable",
+          "net_profit",
+          "net_profit_attributable",
+          "operating_cash_flow",
+          "revenue",
+          "total_assets",
+          "total_liabilities"
+        ],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    }
+  ],
+  "answer_cases": []
+}

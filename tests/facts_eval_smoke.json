@@ -1,0 +1,41 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [],
+  "facts_cases": [
+    {
+      "document_title": "600956_新天绿能_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "5,619,416,574.45",
+          "min_confidence": 0.9,
+          "source_page": 1
+        },
+        "total_assets": {
+          "value": "95,373,041,921.01",
+          "min_confidence": 0.9
+        },
+        "eps_basic": {
+          "value": "0.16",
+          "min_confidence": 0.9
+        }
+      }
+    },
+    {
+      "document_title": "600346_恒力石化_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "4,919,070.54",
+          "min_confidence": 0.9
+        },
+        "total_assets": {
+          "value": "27,656,731.72",
+          "min_confidence": 0.9
+        }
+      }
+    }
+  ],
+  "answer_cases": []
+}

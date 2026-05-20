@@ -1,0 +1,159 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [],
+  "facts_cases": [
+    {
+      "document_title": "600956_新天绿能_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "5,619,416,574.45",
+          "min_confidence": 0.9,
+          "source_page": 1
+        },
+        "total_assets": {
+          "value": "95,373,041,921.01",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "1,390,746,391.08",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.16",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": ["revenue", "total_assets", "operating_cash_flow", "eps_basic"],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600346_恒力石化_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "4,919,070.54",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "27,656,731.72",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "20,586,208.46",
+          "min_confidence": 0.8,
+          "quality_flag": "derived_from_assets_minus_equity",
+          "fact_origin": "derived"
+        },
+        "equity_attributable": {
+          "value": "7,070,523.26",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "454,628.55",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.56",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": ["total_liabilities"],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": ["revenue", "total_assets", "equity_attributable", "operating_cash_flow", "eps_basic"],
+        "derived_metrics": ["total_liabilities"],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "600133_东湖高新_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "387,132,938.27",
+          "min_confidence": 0.9,
+          "source_page": 1,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "19,567,533,633.47",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "total_liabilities": {
+          "value": "9,663,419,076.17",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "equity_attributable": {
+          "value": "9,107,243,680.82",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "-207,937,033.83",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "-0.0017",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": ["revenue", "total_assets", "total_liabilities", "equity_attributable", "operating_cash_flow", "eps_basic"],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    },
+    {
+      "document_title": "601818_光大银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "31,811",
+          "min_confidence": 0.9,
+          "source_page": 3,
+          "fact_origin": "raw_extracted"
+        },
+        "total_assets": {
+          "value": "7,201,145",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "operating_cash_flow": {
+          "value": "36,015",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        },
+        "eps_basic": {
+          "value": "0.17",
+          "min_confidence": 0.9,
+          "fact_origin": "raw_extracted"
+        }
+      },
+      "expected_derived_metrics": [],
+      "expected_usable_for_calc_contains": {
+        "raw_metrics": ["revenue", "total_assets", "operating_cash_flow", "eps_basic"],
+        "derived_metrics": [],
+        "excluded_metrics": []
+      }
+    }
+  ],
+  "answer_cases": []
+}

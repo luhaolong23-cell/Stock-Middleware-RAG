@@ -1,0 +1,42 @@
+# Secrets and local env
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Generated exports and local artifacts
+document_*_artifacts.json
+data/exports/
+data/audits/
+
+# Downloaded / local report corpora
+data/latest-quarterly/
+data/latest-quarterly-batch/
+data/chunk-test/
+data/random20-2026q1/
+
+# Local generated files under data
+data/stock_rag.db
+data/chunks_preview.txt
+data/maotai_2025_annual_retrieval_eval.json
+
+# Presentation build outputs and generated snapshots
+presentation/screenshots/
+presentation/data/*.latest.json
+presentation/stock-rag-showcase.pdf
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/

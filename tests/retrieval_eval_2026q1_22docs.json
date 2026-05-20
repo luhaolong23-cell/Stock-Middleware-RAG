@@ -1,0 +1,332 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [
+    {
+      "query": "东湖高新 2026年一季报 资产负债表",
+      "expected_title": "600133_东湖高新_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "东湖高新 2026年一季报 利润表",
+      "expected_title": "600133_东湖高新_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "东湖高新 2026年一季报 主要会计数据",
+      "expected_title": "600133_东湖高新_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "中国巨石 2026年一季报 资产负债表",
+      "expected_title": "600176_中国巨石_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "中国巨石 2026年一季报 利润表",
+      "expected_title": "600176_中国巨石_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "中国巨石 2026年一季报 主要会计数据",
+      "expected_title": "600176_中国巨石_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "绿能慧充 2026年一季报 资产负债表",
+      "expected_title": "600212_绿能慧充_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "绿能慧充 2026年一季报 利润表",
+      "expected_title": "600212_绿能慧充_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "绿能慧充 2026年一季报 主要会计数据",
+      "expected_title": "600212_绿能慧充_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "华阳新材 2026年一季报 资产负债表",
+      "expected_title": "600281_华阳新材_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "华阳新材 2026年一季报 利润表",
+      "expected_title": "600281_华阳新材_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "华阳新材 2026年一季报 主要会计数据",
+      "expected_title": "600281_华阳新材_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "恒力石化 2026年一季报 资产负债表",
+      "expected_title": "600346_恒力石化_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "恒力石化 2026年一季报 利润表",
+      "expected_title": "600346_恒力石化_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "恒力石化 2026年一季报 主要会计数据",
+      "expected_title": "600346_恒力石化_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "中远海特 2026年一季报 资产负债表",
+      "expected_title": "600428_中远海特_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "中远海特 2026年一季报 利润表",
+      "expected_title": "600428_中远海特_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "中远海特 2026年一季报 主要会计数据",
+      "expected_title": "600428_中远海特_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "云维股份 2026年一季报 资产负债表",
+      "expected_title": "600725_云维股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "云维股份 2026年一季报 利润表",
+      "expected_title": "600725_云维股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "云维股份 2026年一季报 主要会计数据",
+      "expected_title": "600725_云维股份_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "益民集团 2026年一季报 资产负债表",
+      "expected_title": "600824_益民集团_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "益民集团 2026年一季报 利润表",
+      "expected_title": "600824_益民集团_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+    {
+      "query": "益民集团 2026年一季报 主要会计数据",
+      "expected_title": "600824_益民集团_2026_Q1报",
+      "expected_keywords": ["主要会计数据"]
+    },
+
+    {
+      "query": "新天绿能 2026年一季报 资产负债表",
+      "expected_title": "600956_新天绿能_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "新天绿能 2026年一季报 利润表",
+      "expected_title": "600956_新天绿能_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "海南橡胶 2026年一季报 资产负债表",
+      "expected_title": "601118_海南橡胶_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "海南橡胶 2026年一季报 利润表",
+      "expected_title": "601118_海南橡胶_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "中国外运 2026年一季报 资产负债表",
+      "expected_title": "601598_中国外运_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "中国外运 2026年一季报 利润表",
+      "expected_title": "601598_中国外运_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "中国核建 2026年一季报 资产负债表",
+      "expected_title": "601611_中国核建_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "中国核建 2026年一季报 利润表",
+      "expected_title": "601611_中国核建_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "光大银行 2026年一季报 资产负债表",
+      "expected_title": "601818_光大银行_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "光大银行 2026年一季报 利润表",
+      "expected_title": "601818_光大银行_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "如通股份 2026年一季报 资产负债表",
+      "expected_title": "603036_如通股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "如通股份 2026年一季报 利润表",
+      "expected_title": "603036_如通股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "永吉股份 2026年一季报 资产负债表",
+      "expected_title": "603058_永吉股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "永吉股份 2026年一季报 利润表",
+      "expected_title": "603058_永吉股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "海汽集团 2026年一季报 资产负债表",
+      "expected_title": "603069_海汽集团_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "海汽集团 2026年一季报 利润表",
+      "expected_title": "603069_海汽集团_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "万林物流 2026年一季报 资产负债表",
+      "expected_title": "603117_万林物流_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "万林物流 2026年一季报 利润表",
+      "expected_title": "603117_万林物流_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "石英股份 2026年一季报 资产负债表",
+      "expected_title": "603688_石英股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "石英股份 2026年一季报 利润表",
+      "expected_title": "603688_石英股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "龙版传媒 2026年一季报 资产负债表",
+      "expected_title": "605577_龙版传媒_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "龙版传媒 2026年一季报 利润表",
+      "expected_title": "605577_龙版传媒_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "中国通号 2026年一季报 资产负债表",
+      "expected_title": "688009_中国通号_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "中国通号 2026年一季报 利润表",
+      "expected_title": "688009_中国通号_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "神工股份 2026年一季报 资产负债表",
+      "expected_title": "688233_神工股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "神工股份 2026年一季报 利润表",
+      "expected_title": "688233_神工股份_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    },
+
+    {
+      "query": "埃科光电 2026年一季报 资产负债表",
+      "expected_title": "688610_埃科光电_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["资产负债表"]
+    },
+    {
+      "query": "埃科光电 2026年一季报 利润表",
+      "expected_title": "688610_埃科光电_2026_Q1报",
+      "expected_chunk_type": "table",
+      "expected_keywords": ["利润表"]
+    }
+  ],
+  "answer_cases": []
+}

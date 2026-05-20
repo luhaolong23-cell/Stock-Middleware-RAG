@@ -1,0 +1,45 @@
+{
+  "parse_cases": [
+    {
+      "name": "招商银行-解析",
+      "file_path": "data/chunk-test/600036_招商银行/600036_招商银行_2026_Q1报.pdf",
+      "expected_text_contains": ["A 股代码：600036", "重要提示"],
+      "min_element_counts": {
+        "text": 4,
+        "table": 3
+      }
+    }
+  ],
+  "chunk_cases": [
+    {
+      "name": "茅台-v2-chunk",
+      "file_path": "data/chunk-test/600519_贵州茅台/600519_贵州茅台_2026_Q1报.pdf",
+      "min_chunks": 10,
+      "max_chunk_length": 1400,
+      "min_chunk_counts": {
+        "table": 10
+      },
+      "required_keyword": "营业收入"
+    }
+  ],
+  "retrieval_cases": [
+    {
+      "query": "贵州茅台 2026年一季报 营业收入是多少",
+      "expected_title": "600519_贵州茅台_2026_Q1报",
+      "expected_keywords": ["营业收入", "53,909,252,220.51"]
+    },
+    {
+      "query": "招商银行 2026年一季报 A股代码是什么",
+      "expected_title": "600036_招商银行_2026_Q1报",
+      "expected_keywords": ["A 股代码", "600036"]
+    }
+  ],
+  "answer_cases": [
+    {
+      "query": "贵州茅台 2026年一季报 营业收入是多少",
+      "expected_answer_contains": ["53,909,252,220.51"],
+      "expected_citation_title": "600519_贵州茅台_2026_Q1报",
+      "forbid_refusal": true
+    }
+  ]
+}

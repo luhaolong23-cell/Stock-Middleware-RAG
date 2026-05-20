@@ -1,0 +1,1394 @@
+{
+  "parse_cases": [],
+  "chunk_cases": [],
+  "retrieval_cases": [],
+  "facts_cases": [
+    {
+      "document_title": "600000_浦发银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "46,573",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 46573.0,
+          "expected_normalized_value_cny": 46573000000.0
+        },
+        "net_profit_attributable": {
+          "value": "17,861",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 17861.0,
+          "expected_normalized_value_cny": 17861000000.0
+        },
+        "net_profit": {
+          "value": "91,724",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 91724.0,
+          "expected_normalized_value_cny": 91724000000.0
+        },
+        "total_assets": {
+          "value": "10,305,646",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 10305646.0,
+          "expected_normalized_value_cny": 10305646000000.0
+        },
+        "total_liabilities": {
+          "value": "61.06",
+          "expected_unit": null,
+          "expected_numeric_value": 61.06,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "833,771",
+          "expected_unit": null,
+          "expected_numeric_value": 833771.0,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "91,724",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 91724.0,
+          "expected_normalized_value_cny": 91724000000.0
+        },
+        "eps_basic": {
+          "value": "0.52",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 0.52,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600036_招商银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "86,940",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 86940.0,
+          "expected_normalized_value_cny": 86940000000.0
+        },
+        "net_profit_attributable": {
+          "value": "37,852",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 37852.0,
+          "expected_normalized_value_cny": 37852000000.0
+        },
+        "net_profit": {
+          "value": "38,048",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 38048.0,
+          "expected_normalized_value_cny": 38048000000.0
+        },
+        "total_assets": {
+          "value": "13,484,882",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 13484882.0,
+          "expected_normalized_value_cny": 13484882000000.0
+        },
+        "total_liabilities": {
+          "value": "121,942.97",
+          "expected_unit": null,
+          "expected_numeric_value": 121942.97,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "1,282,355",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 1282355.0,
+          "expected_normalized_value_cny": 1282355000000.0
+        },
+        "operating_cash_flow": {
+          "value": "125,849",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 125849.0,
+          "expected_normalized_value_cny": 125849000000.0
+        },
+        "eps_basic": {
+          "value": "1.49",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 1.49,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600133_东湖高新_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "387,132,938.27",
+          "expected_unit": "元币种：人民币",
+          "expected_numeric_value": 387132938.27,
+          "expected_normalized_value_cny": 387132938.27
+        },
+        "net_profit_attributable": {
+          "value": "-1,765,643.60",
+          "expected_unit": null,
+          "expected_numeric_value": -1765643.6,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "-3,828,503.30",
+          "expected_unit": null,
+          "expected_numeric_value": -3828503.3,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "19,567,533,633.47",
+          "expected_unit": "元币种:人民币",
+          "expected_numeric_value": 19567533633.47,
+          "expected_normalized_value_cny": 19567533633.47
+        },
+        "total_liabilities": {
+          "value": "9,663,419,076.17",
+          "expected_unit": null,
+          "expected_numeric_value": 9663419076.17,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "9,107,243,680.82",
+          "expected_unit": null,
+          "expected_numeric_value": 9107243680.82,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-207,937,033.83",
+          "expected_unit": "武汉东湖高新集团股份有限公司",
+          "expected_numeric_value": -207937033.83,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "-0.0017",
+          "expected_unit": "元币种:人民币",
+          "expected_numeric_value": -0.0017,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600176_中国巨石_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "5,281,938,122.05",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 5281938122.05,
+          "expected_normalized_value_cny": 5281938122.05
+        },
+        "net_profit_attributable": {
+          "value": "1,267,151,599.42",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 1267151599.42,
+          "expected_normalized_value_cny": 1267151599.42
+        },
+        "net_profit": {
+          "value": "221,173,113.30",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 221173113.3,
+          "expected_normalized_value_cny": 221173113.3
+        },
+        "total_assets": {
+          "value": "55,297,026,471.34",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 55297026471.34,
+          "expected_normalized_value_cny": 55297026471.34
+        },
+        "total_liabilities": {
+          "value": "21,529,068,667.46",
+          "expected_unit": null,
+          "expected_numeric_value": 21529068667.46,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "32,287,316,078.55",
+          "expected_unit": null,
+          "expected_numeric_value": 32287316078.55,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "221,173,113.30",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 221173113.3,
+          "expected_normalized_value_cny": 221173113.3
+        },
+        "eps_basic": {
+          "value": "0.3193",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 0.3193,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600212_绿能慧充_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "298,539,137.97",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 298539137.97,
+          "expected_normalized_value_cny": 298539137.97
+        },
+        "net_profit_attributable": {
+          "value": "-21,496,858.30",
+          "expected_unit": null,
+          "expected_numeric_value": -21496858.3,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "-20,853,234.99",
+          "expected_unit": null,
+          "expected_numeric_value": -20853234.99,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "2,687,936,467.26",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 2687936467.26,
+          "expected_normalized_value_cny": 2687936467.26
+        },
+        "total_liabilities": {
+          "value": "2,085,509,689.35",
+          "expected_unit": null,
+          "expected_numeric_value": 2085509689.35,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "577,028,070.71",
+          "expected_unit": null,
+          "expected_numeric_value": 577028070.71,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-50,876,098.86",
+          "expected_unit": null,
+          "expected_numeric_value": -50876098.86,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "-0.0305",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": -0.0305,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600281_华阳新材_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "124,064,340.76",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 124064340.76,
+          "expected_normalized_value_cny": 124064340.76
+        },
+        "net_profit_attributable": {
+          "value": "90,278.35",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 90278.35,
+          "expected_normalized_value_cny": 90278.35
+        },
+        "net_profit": {
+          "value": "-4,513,329.54",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": -4513329.54,
+          "expected_normalized_value_cny": -4513329.54
+        },
+        "total_assets": {
+          "value": "897,777,023.60",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 897777023.6,
+          "expected_normalized_value_cny": 897777023.6
+        },
+        "total_liabilities": {
+          "value": "841,515,825.32",
+          "expected_unit": null,
+          "expected_numeric_value": 841515825.32,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "56,261,198.28",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 56261198.28,
+          "expected_normalized_value_cny": 56261198.28
+        },
+        "operating_cash_flow": {
+          "value": "-4,513,329.54",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": -4513329.54,
+          "expected_normalized_value_cny": -4513329.54
+        },
+        "eps_basic": {
+          "value": "0.0002",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 0.0002,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600346_恒力石化_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "4,919,070.54",
+          "expected_unit": "万元     币种：人民币",
+          "expected_numeric_value": 4919070.54,
+          "expected_normalized_value_cny": 49190705400.0
+        },
+        "net_profit_attributable": {
+          "value": "391,019.31",
+          "expected_unit": "万元     币种：人民币",
+          "expected_numeric_value": 391019.31,
+          "expected_normalized_value_cny": 3910193100.0
+        },
+        "net_profit": {
+          "value": "454,628.55",
+          "expected_unit": "万元     币种：人民币",
+          "expected_numeric_value": 454628.55,
+          "expected_normalized_value_cny": 4546285500.0
+        },
+        "total_assets": {
+          "value": "27,656,731.72",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 27656731.72,
+          "expected_normalized_value_cny": 27656731.72
+        },
+        "total_liabilities": {
+          "value": "205,844,868,338.69",
+          "expected_unit": null,
+          "expected_numeric_value": 205844868338.69,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "70,705,232,618.28",
+          "expected_unit": null,
+          "expected_numeric_value": 70705232618.28,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "454,628.55",
+          "expected_unit": "万元     币种：人民币",
+          "expected_numeric_value": 454628.55,
+          "expected_normalized_value_cny": 4546285500.0
+        },
+        "eps_basic": {
+          "value": "0.56",
+          "expected_unit": "万元     币种：人民币",
+          "expected_numeric_value": 0.56,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600428_中远海特_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "6,547,046,512.66",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 6547046512.66,
+          "expected_normalized_value_cny": 6547046512.66
+        },
+        "net_profit_attributable": {
+          "value": "405,873,514.87",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 405873514.87,
+          "expected_normalized_value_cny": 405873514.87
+        },
+        "net_profit": {
+          "value": "1,933,449,449.76",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 1933449449.76,
+          "expected_normalized_value_cny": 1933449449.76
+        },
+        "total_assets": {
+          "value": "44,869,608,765.89",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 44869608765.89,
+          "expected_normalized_value_cny": 44869608765.89
+        },
+        "total_liabilities": {
+          "value": "25,908,091,670.16",
+          "expected_unit": null,
+          "expected_numeric_value": 25908091670.16,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "17,101,968,461.85",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 17101968461.85,
+          "expected_normalized_value_cny": 17101968461.85
+        },
+        "operating_cash_flow": {
+          "value": "1,933,449,449.76",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 1933449449.76,
+          "expected_normalized_value_cny": 1933449449.76
+        },
+        "eps_basic": {
+          "value": "0.148",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 0.148,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600519_贵州茅台_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "53,909,252,220.51",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 53909252220.51,
+          "expected_normalized_value_cny": 53909252220.51
+        },
+        "net_profit_attributable": {
+          "value": "27,242,512,886.45",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 27242512886.45,
+          "expected_normalized_value_cny": 27242512886.45
+        },
+        "net_profit": {
+          "value": "26,909,891,269.13",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 26909891269.13,
+          "expected_normalized_value_cny": 26909891269.13
+        },
+        "total_assets": {
+          "value": "319,918,844,905.58",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 319918844905.58,
+          "expected_normalized_value_cny": 319918844905.58
+        },
+        "total_liabilities": {
+          "value": "38,782,958,469.89",
+          "expected_unit": null,
+          "expected_numeric_value": 38782958469.89,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "270,894,035,676.27",
+          "expected_unit": "贵州茅台酒股份有限公司",
+          "expected_numeric_value": 270894035676.27,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "26,909,891,269.13",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 26909891269.13,
+          "expected_normalized_value_cny": 26909891269.13
+        },
+        "eps_basic": {
+          "value": "21.76",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 21.76,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600725_云维股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "113,765,056.44",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": 113765056.44,
+          "expected_normalized_value_cny": 113765056.44
+        },
+        "net_profit_attributable": {
+          "value": "-1,610,014.01",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": -1610014.01,
+          "expected_normalized_value_cny": -1610014.01
+        },
+        "net_profit": {
+          "value": "-69,342,714.03",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": -69342714.03,
+          "expected_normalized_value_cny": -69342714.03
+        },
+        "total_assets": {
+          "value": "353,340,034.11",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 353340034.11,
+          "expected_normalized_value_cny": 353340034.11
+        },
+        "total_liabilities": {
+          "value": "96,710,966.50",
+          "expected_unit": null,
+          "expected_numeric_value": 96710966.5,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "256,629,067.61",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 256629067.61,
+          "expected_normalized_value_cny": 256629067.61
+        },
+        "operating_cash_flow": {
+          "value": "-69,342,714.03",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": -69342714.03,
+          "expected_normalized_value_cny": -69342714.03
+        },
+        "eps_basic": {
+          "value": "-0.0013",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": -0.0013,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600824_益民集团_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "151,962,143.95",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 151962143.95,
+          "expected_normalized_value_cny": 151962143.95
+        },
+        "net_profit_attributable": {
+          "value": "38.27",
+          "expected_unit": "股",
+          "expected_numeric_value": 38.27,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "-71.38",
+          "expected_unit": "股",
+          "expected_numeric_value": -71.38,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "2,950,083,264.12",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 2950083264.12,
+          "expected_normalized_value_cny": 2950083264.12
+        },
+        "total_liabilities": {
+          "value": "421,985,357.72",
+          "expected_unit": null,
+          "expected_numeric_value": 421985357.72,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "2,533,223,206.56",
+          "expected_unit": null,
+          "expected_numeric_value": 2533223206.56,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-71.38",
+          "expected_unit": "股",
+          "expected_numeric_value": -71.38,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "0.018",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 0.018,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "600956_新天绿能_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "5,619,416,574.45",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 5619416574.45,
+          "expected_normalized_value_cny": 5619416574.45
+        },
+        "net_profit_attributable": {
+          "value": "715,611,449.36",
+          "expected_unit": null,
+          "expected_numeric_value": 715611449.36,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "807,579,910.51",
+          "expected_unit": null,
+          "expected_numeric_value": 807579910.51,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "95,373,041,921.01",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 95373041921.01,
+          "expected_normalized_value_cny": 95373041921.01
+        },
+        "total_liabilities": {
+          "value": "63,041,629,177.66",
+          "expected_unit": null,
+          "expected_numeric_value": 63041629177.66,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "26,253,374,066.63",
+          "expected_unit": null,
+          "expected_numeric_value": 26253374066.63,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-1,652,519.28",
+          "expected_unit": "新天绿色能源股份有限公司",
+          "expected_numeric_value": -1652519.28,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "0.16",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 0.16,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "601118_海南橡胶_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "6,538,682,706.97",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 6538682706.97,
+          "expected_normalized_value_cny": 6538682706.97
+        },
+        "net_profit_attributable": {
+          "value": "-132,556,565.16",
+          "expected_unit": null,
+          "expected_numeric_value": -132556565.16,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "-207,516,364.07",
+          "expected_unit": null,
+          "expected_numeric_value": -207516364.07,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "33,892,339,671.03",
+          "expected_unit": null,
+          "expected_numeric_value": 33892339671.03,
+          "expected_normalized_value_cny": null
+        },
+        "total_liabilities": {
+          "value": "24,131,463,389.04",
+          "expected_unit": null,
+          "expected_numeric_value": 24131463389.04,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "9,915,825,797.78",
+          "expected_unit": null,
+          "expected_numeric_value": 9915825797.78,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "25,986,093.57",
+          "expected_unit": null,
+          "expected_numeric_value": 25986093.57,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "-0.0310",
+          "expected_unit": null,
+          "expected_numeric_value": -0.031,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "601318_中国平安_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "218,405",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 218405.0,
+          "expected_normalized_value_cny": 218405000000.0
+        },
+        "net_profit_attributable": {
+          "value": "25,022",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 25022.0,
+          "expected_normalized_value_cny": 25022000000.0
+        },
+        "net_profit": {
+          "value": "12,950",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 12950.0,
+          "expected_normalized_value_cny": 12950000000.0
+        },
+        "total_assets": {
+          "value": "14,169,947",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 14169947.0,
+          "expected_normalized_value_cny": 14169947000000.0
+        },
+        "total_liabilities": {
+          "value": "12,735,657",
+          "expected_unit": null,
+          "expected_numeric_value": 12735657.0,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "1,018,310",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 1018310.0,
+          "expected_normalized_value_cny": 1018310000000.0
+        },
+        "operating_cash_flow": {
+          "value": "131,064",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 131064.0,
+          "expected_normalized_value_cny": 131064000000.0
+        },
+        "eps_basic": {
+          "value": "1.43",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 1.43,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "601598_中国外运_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "21,549,357,084.51",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 21549357084.51,
+          "expected_normalized_value_cny": 21549357084.51
+        },
+        "net_profit_attributable": {
+          "value": "681,445,013.11",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 681445013.11,
+          "expected_normalized_value_cny": 681445013.11
+        },
+        "net_profit": {
+          "value": "-1,794,494,892.81",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": -1794494892.81,
+          "expected_normalized_value_cny": -1794494892.81
+        },
+        "total_assets": {
+          "value": "79,984,028,680.63",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 79984028680.63,
+          "expected_normalized_value_cny": 79984028680.63
+        },
+        "total_liabilities": {
+          "value": "35,424,763,216.49",
+          "expected_unit": null,
+          "expected_numeric_value": 35424763216.49,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "41,745,513,451.53",
+          "expected_unit": null,
+          "expected_numeric_value": 41745513451.53,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-1,794,494,892.81",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": -1794494892.81,
+          "expected_normalized_value_cny": -1794494892.81
+        },
+        "eps_basic": {
+          "value": "0.0950",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 0.095,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "601611_中国核建_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "23,006,669,875.83",
+          "expected_unit": "元 币种：人民币",
+          "expected_numeric_value": 23006669875.83,
+          "expected_normalized_value_cny": 23006669875.83
+        },
+        "net_profit_attributable": {
+          "value": "402,876,829.83",
+          "expected_unit": null,
+          "expected_numeric_value": 402876829.83,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "693,935,869.65",
+          "expected_unit": null,
+          "expected_numeric_value": 693935869.65,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "242,629,602,259.66",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 242629602259.66,
+          "expected_normalized_value_cny": 242629602259.66
+        },
+        "total_liabilities": {
+          "value": "191,007,275,436.49",
+          "expected_unit": null,
+          "expected_numeric_value": 191007275436.49,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "33,618,566,699.85",
+          "expected_unit": null,
+          "expected_numeric_value": 33618566699.85,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "0.13",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 0.13,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "601818_光大银行_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "31,811",
+          "expected_unit": "人民币百万元、%",
+          "expected_numeric_value": 31811.0,
+          "expected_normalized_value_cny": 31811000000.0
+        },
+        "net_profit_attributable": {
+          "value": "11,459",
+          "expected_unit": "人民币百万元、%",
+          "expected_numeric_value": 11459.0,
+          "expected_normalized_value_cny": 11459000000.0
+        },
+        "net_profit": {
+          "value": "2026",
+          "expected_unit": "人民币百万元、%",
+          "expected_numeric_value": 2026.0,
+          "expected_normalized_value_cny": 2026000000.0
+        },
+        "total_assets": {
+          "value": "7,201,145",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 7201145.0,
+          "expected_normalized_value_cny": 7201145000000.0
+        },
+        "total_liabilities": {
+          "value": "66,241.31",
+          "expected_unit": "人民币百万元、%",
+          "expected_numeric_value": 66241.31,
+          "expected_normalized_value_cny": 66241310000.0
+        },
+        "equity_attributable": {
+          "value": "574,423",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 574423.0,
+          "expected_normalized_value_cny": 574423000000.0
+        },
+        "operating_cash_flow": {
+          "value": "36,015",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 36015.0,
+          "expected_normalized_value_cny": 36015000000.0
+        },
+        "eps_basic": {
+          "value": "0.17",
+          "expected_unit": "人民币百万元",
+          "expected_numeric_value": 0.17,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "603036_如通股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "94,276,731.15",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 94276731.15,
+          "expected_normalized_value_cny": 94276731.15
+        },
+        "net_profit_attributable": {
+          "value": "22,109,783.49",
+          "expected_unit": null,
+          "expected_numeric_value": 22109783.49,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "22,313,531.94",
+          "expected_unit": null,
+          "expected_numeric_value": 22313531.94,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "1,576,852,233.31",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 1576852233.31,
+          "expected_normalized_value_cny": 1576852233.31
+        },
+        "total_liabilities": {
+          "value": "158,474,372.98",
+          "expected_unit": null,
+          "expected_numeric_value": 158474372.98,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "1,408,907,215.10",
+          "expected_unit": null,
+          "expected_numeric_value": 1408907215.1,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-4,128,582.45",
+          "expected_unit": "江苏如通石油机械股份有限公司",
+          "expected_numeric_value": -4128582.45,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "0.11",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 0.11,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "603058_永吉股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "184,241,320.31",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 184241320.31,
+          "expected_normalized_value_cny": 184241320.31
+        },
+        "net_profit_attributable": {
+          "value": "-13,492,433.52",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": -13492433.52,
+          "expected_normalized_value_cny": -13492433.52
+        },
+        "net_profit": {
+          "value": "48,030,519.22",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 48030519.22,
+          "expected_normalized_value_cny": 48030519.22
+        },
+        "total_assets": {
+          "value": "2,208,662,513.07",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 2208662513.07,
+          "expected_normalized_value_cny": 2208662513.07
+        },
+        "total_liabilities": {
+          "value": "841,574,623.98",
+          "expected_unit": "贵州永吉印务股份有限公司",
+          "expected_numeric_value": 841574623.98,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "1,197,332,072.51",
+          "expected_unit": "贵州永吉印务股份有限公司",
+          "expected_numeric_value": 1197332072.51,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "48,030,519.22",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": 48030519.22,
+          "expected_normalized_value_cny": 48030519.22
+        },
+        "eps_basic": {
+          "value": "-0.0328",
+          "expected_unit": "元    币种：人民币",
+          "expected_numeric_value": -0.0328,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "603069_海汽集团_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "151,120,571.15",
+          "expected_unit": "元      币种：人民币",
+          "expected_numeric_value": 151120571.15,
+          "expected_normalized_value_cny": 151120571.15
+        },
+        "net_profit_attributable": {
+          "value": "-20,824,825.08",
+          "expected_unit": null,
+          "expected_numeric_value": -20824825.08,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "-20,982,044.86",
+          "expected_unit": null,
+          "expected_numeric_value": -20982044.86,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "2,561,432,829.64",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 2561432829.64,
+          "expected_normalized_value_cny": 2561432829.64
+        },
+        "total_liabilities": {
+          "value": "1,786,035,756.40",
+          "expected_unit": null,
+          "expected_numeric_value": 1786035756.4,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "772,617,444.70",
+          "expected_unit": null,
+          "expected_numeric_value": 772617444.7,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "-0.07",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": -0.07,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "603117_万林物流_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "45,916,805.94",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 45916805.94,
+          "expected_normalized_value_cny": 45916805.94
+        },
+        "net_profit_attributable": {
+          "value": "-6,076,049.39",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": -6076049.39,
+          "expected_normalized_value_cny": -6076049.39
+        },
+        "net_profit": {
+          "value": "-9,774,823.35",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": -9774823.35,
+          "expected_normalized_value_cny": -9774823.35
+        },
+        "total_assets": {
+          "value": "1,298,870,599.60",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 1298870599.6,
+          "expected_normalized_value_cny": 1298870599.6
+        },
+        "total_liabilities": {
+          "value": "273,300,506.16",
+          "expected_unit": null,
+          "expected_numeric_value": 273300506.16,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "1,025,390,325.32",
+          "expected_unit": null,
+          "expected_numeric_value": 1025390325.32,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-9,774,823.35",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": -9774823.35,
+          "expected_normalized_value_cny": -9774823.35
+        },
+        "eps_basic": {
+          "value": "-0.0101",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": -0.0101,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "603688_石英股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "256,452,107.04",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 256452107.04,
+          "expected_normalized_value_cny": 256452107.04
+        },
+        "net_profit_attributable": {
+          "value": "36,769,731.55",
+          "expected_unit": null,
+          "expected_numeric_value": 36769731.55,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "35,536,015.63",
+          "expected_unit": null,
+          "expected_numeric_value": 35536015.63,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "6,200,713,722.13",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 6200713722.13,
+          "expected_normalized_value_cny": 6200713722.13
+        },
+        "total_liabilities": {
+          "value": "321,215,313.24",
+          "expected_unit": null,
+          "expected_numeric_value": 321215313.24,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "5,853,655,291.52",
+          "expected_unit": "江苏太平洋石英股份有限公司",
+          "expected_numeric_value": 5853655291.52,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "6,270,009.13",
+          "expected_unit": "江苏太平洋石英股份有限公司",
+          "expected_numeric_value": 6270009.13,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "0.07",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 0.07,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "605577_龙版传媒_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "537,132,957.10",
+          "expected_unit": "元     币种：人民币",
+          "expected_numeric_value": 537132957.1,
+          "expected_normalized_value_cny": 537132957.1
+        },
+        "net_profit_attributable": {
+          "value": "123,290,900.05",
+          "expected_unit": null,
+          "expected_numeric_value": 123290900.05,
+          "expected_normalized_value_cny": null
+        },
+        "net_profit": {
+          "value": "123,290,900.05",
+          "expected_unit": null,
+          "expected_numeric_value": 123290900.05,
+          "expected_normalized_value_cny": null
+        },
+        "total_assets": {
+          "value": "5,934,572,618.41",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 5934572618.41,
+          "expected_normalized_value_cny": 5934572618.41
+        },
+        "total_liabilities": {
+          "value": "1,906,396,982.38",
+          "expected_unit": null,
+          "expected_numeric_value": 1906396982.38,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "4,028,175,636.03",
+          "expected_unit": null,
+          "expected_numeric_value": 4028175636.03,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-121,340,497.76",
+          "expected_unit": null,
+          "expected_numeric_value": -121340497.76,
+          "expected_normalized_value_cny": null
+        },
+        "eps_basic": {
+          "value": "0.2774",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 0.2774,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "688009_中国通号_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "6,464,623,418.14",
+          "expected_unit": "元         币种：人民币",
+          "expected_numeric_value": 6464623418.14,
+          "expected_normalized_value_cny": 6464623418.14
+        },
+        "net_profit_attributable": {
+          "value": "521,446,986.96",
+          "expected_unit": "元         币种：人民币",
+          "expected_numeric_value": 521446986.96,
+          "expected_normalized_value_cny": 521446986.96
+        },
+        "net_profit": {
+          "value": "-1,391,918,143.04",
+          "expected_unit": "元         币种：人民币",
+          "expected_numeric_value": -1391918143.04,
+          "expected_normalized_value_cny": -1391918143.04
+        },
+        "total_assets": {
+          "value": "116,823,688,391.85",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 116823688391.85,
+          "expected_normalized_value_cny": 116823688391.85
+        },
+        "total_liabilities": {
+          "value": "63,717,965,288.51",
+          "expected_unit": null,
+          "expected_numeric_value": 63717965288.51,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "50,384,944,535.94",
+          "expected_unit": null,
+          "expected_numeric_value": 50384944535.94,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-1,391,918,143.04",
+          "expected_unit": "元         币种：人民币",
+          "expected_numeric_value": -1391918143.04,
+          "expected_normalized_value_cny": -1391918143.04
+        },
+        "eps_basic": {
+          "value": "0.05",
+          "expected_unit": "元         币种：人民币",
+          "expected_numeric_value": 0.05,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "688233_神工股份_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "112,422,797.83",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 112422797.83,
+          "expected_normalized_value_cny": 112422797.83
+        },
+        "net_profit_attributable": {
+          "value": "25,385,255.30",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 25385255.3,
+          "expected_normalized_value_cny": 25385255.3
+        },
+        "net_profit": {
+          "value": "25,225,759.40",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 25225759.4,
+          "expected_normalized_value_cny": 25225759.4
+        },
+        "total_assets": {
+          "value": "2,098,114,016.44",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 2098114016.44,
+          "expected_normalized_value_cny": 2098114016.44
+        },
+        "total_liabilities": {
+          "value": "107,446,099.90",
+          "expected_unit": null,
+          "expected_numeric_value": 107446099.9,
+          "expected_normalized_value_cny": null
+        },
+        "equity_attributable": {
+          "value": "1,915,803,477.75",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 1915803477.75,
+          "expected_normalized_value_cny": 1915803477.75
+        },
+        "operating_cash_flow": {
+          "value": "25,225,759.40",
+          "expected_unit": "元        币种：人民币",
+          "expected_numeric_value": 25225759.4,
+          "expected_normalized_value_cny": 25225759.4
+        },
+        "eps_basic": {
+          "value": "0.15",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 0.15,
+          "expected_normalized_value_cny": null
+        }
+      }
+    },
+    {
+      "document_title": "688610_埃科光电_2026_Q1报",
+      "expected_report_period": "2026Q1",
+      "expected_metrics": {
+        "revenue": {
+          "value": "12.57",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 12.57,
+          "expected_normalized_value_cny": 12.57
+        },
+        "net_profit_attributable": {
+          "value": "23,204,810.33",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": 23204810.33,
+          "expected_normalized_value_cny": 23204810.33
+        },
+        "net_profit": {
+          "value": "-1,859,341.77",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": -1859341.77,
+          "expected_normalized_value_cny": -1859341.77
+        },
+        "total_assets": {
+          "value": "1,822,699,685.76",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 1822699685.76,
+          "expected_normalized_value_cny": 1822699685.76
+        },
+        "total_liabilities": {
+          "value": "270,245,724.15",
+          "expected_unit": "合肥埃科光电科技股份有限公司",
+          "expected_numeric_value": 270245724.15,
+          "expected_normalized_value_cny": null
+        },
+        "operating_cash_flow": {
+          "value": "-1,859,341.77",
+          "expected_unit": "元       币种：人民币",
+          "expected_numeric_value": -1859341.77,
+          "expected_normalized_value_cny": -1859341.77
+        },
+        "eps_basic": {
+          "value": "0.34",
+          "expected_unit": "元 币种:人民币",
+          "expected_numeric_value": 0.34,
+          "expected_normalized_value_cny": null
+        }
+      }
+    }
+  ],
+  "answer_cases": []
+}
